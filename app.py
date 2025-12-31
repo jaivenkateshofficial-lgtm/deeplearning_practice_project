@@ -13,9 +13,9 @@ def load_picle_obj(file_path):
 
 model=tf.keras.models.load_model(r'models/tesormodel.h5')
 
-gen_label_encoder:LabelEncoder=load_picle_obj(r'encoder\label_encoder.pkl')
-geo_onehot_encoder:OneHotEncoder=load_picle_obj(r'encoder\onehot_encoder.pkl')
-scallar:StandardScaler=load_picle_obj(r'scallar\scalar.pkl')
+gen_label_encoder:LabelEncoder=load_picle_obj(r'encoder/label_encoder.pkl')
+geo_onehot_encoder:OneHotEncoder=load_picle_obj(r'encoder/onehot_encoder.pkl')
+scallar:StandardScaler=load_picle_obj(r'scallar/scalar.pkl')
 
 # starting stream liteapp
 st.title("customer chrn prediction using Artifical Nural network")
