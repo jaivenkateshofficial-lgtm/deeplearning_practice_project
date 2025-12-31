@@ -11,7 +11,7 @@ def load_picle_obj(file_path):
     return object
 
 
-model=tf.keras.models.load_model(r'C:\Users\jaive\OneDrive\Documents\deep_learning\models\tesormodel.h5')
+model=tf.keras.models.load_model(r'models/tesormodel.h5')
 
 gen_label_encoder:LabelEncoder=load_picle_obj(r'encoder\label_encoder.pkl')
 geo_onehot_encoder:OneHotEncoder=load_picle_obj(r'encoder\onehot_encoder.pkl')
