@@ -1,9 +1,9 @@
 streamlit
 tensorflow-cpu==2.15.0
 pandas
-numpy
+numpy<2
 scikit-learn
 tensorboard
 matplotlib
-streamlit
 ipykernel
+# force rebuild
